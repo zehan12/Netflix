@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+  /* sing in page */
+
+  .body-sign{
+      padding: 0;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .logo-sign img{
+      height: 45px;
+      width:  167px;
+  }
+
+  .header-sign{
+      padding: 20px 50px;
+      position: relative;
+      z-index: 10;
+  }
+
+  .wrapper-sign{
+      background-image: url('https://i.ibb.co/vXqDmnh/background.jpg');
+      height: 100vh;
+      background-image: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      width: 100%;
+  }
+
+  .wrapper-sign::before {
+      content: '';
+      background-color: rgba(0, 0, 0, .6);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+
+  /* sing in box */
+  .login-body{
+      padding: 60px;
+      z-index: 90;
+      position: relative;
+      max-width: 450px;
+      height: 630px;
+      margin-left: 35%;
+      border-radius: 10px;
+      box-sizing: border-box;
+      background-color: rgba(0, 0, 0, .75);
+      transform: translate(-50);
+  }
+
+  .login-body h2 {
+        color:#fff;
+        font-size: 32px;
+        margin-top: 0;
+        padding: 20px 0;
+        font-family: sans-serif;
+  }
+
+  .login-body input{
+      height: 50px;
+      width: 100%;
+      border-radius: 3px;
+      color: #fff;
+      background: #333;
+      border: 1px solid #333;
+      padding-left: 15px;
+      box-sizing: border-box;
+      outline: none;
+  }
+
+  .input-wrap{
+    margin-bottom: 25px;
+  }
+
+  .login-body button{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background: rgb(231,68,46);
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    border:1px solid rgb(231,68,46);
+  }
+
+  .support{
+    display: flex;
+    color: #b3b3b3;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+
+  .support input {
+    width: 15px;
+    height: 15px;
+  }
+
+  .remember{
+    display: flex;
+    align-items: center;
+  }
+
+  .remember span{
+    margin-right: 10px;
+    height: 25px;
+  }
+
+  .login-facebook{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+    padding: 20px 0;
+  }
+
+  .login-facebook img{
+    width: 20px;
+    height: 20px;
+
+  }
+
+  .login-facebook span{
+    margin-right: 10px;
+    font-size: 13px;
+  }
+
+  .login-facebook span a{
+        text-decoration: none;
+        color: #737373;
+
+  }
+
+  .sign-up {
+    color: #737373;
+    font-size: 16px;
+  }
+
+  .sign-up a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .terms{
+    color: #fff;
+    font-size: 13px;
+  }
+
+  .term a{
+    text-decoration:none;
+    color: #0071eb;
+  }
+
+  .term p{
+    padding: 10px 0;
+    color: #b3b3b3;
+    line-height: 1.3;
+  }
+  .sign_in_btn {
+      cursor: pointer;
+  }
+  .sign_in_btn:hover {
+      background-color: #e6380ccb;
+  }
+  .error {
+      border: 2px solid crimson;
+  }
+  .error_span {
+      color: crimson;
+      margin-top: 1rem;
+  }
