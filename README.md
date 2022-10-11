@@ -19,51 +19,6 @@
 -->
 
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="">
-    <img src="./logo.png" alt="Logo" width="150" height="150" style="background-color:#FFFFFF;">
-  </a>
-
-  <h3 align="center">Netfix Static Clone</h3>
-
-  <p align="center">
-   This is for Entertainment 
-    <br />
-    <a href="https://github.com/zehan12/Netflix.git"><strong>Explore the docs »</strong></a>
-    <br />
-</p>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -77,26 +32,21 @@ HTML - CSS - JS - React
 Although my web app looks and feels like Netflix, it functions differently. Since I can't create a database with full movies of every title, I decided to play movies from YouTube. 
 
 
+### Demo
+
+- Live Site : https://netflix-youtube.vercel.app
+
+### Screenshot
+
+![Screenshot 2022-04-23 at 16-28-59 Netflix Home Page](https://user-images.githubusercontent.com/96676832/164891854-9998761a-70d4-4ba5-b483-134efa8240f8.png)
+
+![Screenshot 2022-04-23 at 16-29-24 Netflix Login Page](https://user-images.githubusercontent.com/96676832/164891863-4f95684d-79ce-49b8-b77a-aca37c34abb4.png)
+
+
 ## Features
 
 Dynamically updated content as it works with the YouTube API.
 Plays movie from YouTube.
-
-## Pages
-
-### Landing Page
-
-![Home Page Image](./home.png)
-### Sign In 
-
-!['About Page](./aboutpage.png)
-
-###  Home Page
-
-!['About Page](./aboutpage.png)
-
-
-
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
@@ -189,18 +139,6 @@ Users should be able to:
 - See hover states for all interactive elements on the page.
 - Interactive Accordion.
 - Login Form Validations.
-
-
-### Screenshot
-
-![Screenshot 2022-04-23 at 16-28-59 Netflix Home Page](https://user-images.githubusercontent.com/96676832/164891854-9998761a-70d4-4ba5-b483-134efa8240f8.png)
-
-![Screenshot 2022-04-23 at 16-29-24 Netflix Login Page](https://user-images.githubusercontent.com/96676832/164891863-4f95684d-79ce-49b8-b77a-aca37c34abb4.png)
-
-
-### Demo
-
-- Live Site : https://netflix-youtube.vercel.app
 
 ## Credit where credit's due
 
